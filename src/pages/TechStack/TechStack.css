@@ -1,0 +1,29 @@
+.TechStack{
+    padding-left: 130px;
+    margin: 60px 0;
+}
+
+.TechStack hr{
+    width: 360px;
+    margin: 10px auto 20px;
+    color: #098b09;
+}
+.TechStack h2{
+    font-weight:bold;
+    color: #138781;
+}
+.TechStack .card{
+    cursor: pointer;
+    margin: 10px;
+}
+.TechStack .tech-icon{
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.TechStack .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #138781;
+    color:white;
+    transition: 1s ease-in-out;
+    border: none;
+}
