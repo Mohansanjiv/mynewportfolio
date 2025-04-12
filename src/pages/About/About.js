@@ -5,26 +5,30 @@ import myphoto from '../../components/assets/images/myphoto.jpg'
 const About = () => {
   return (
     <>
-      <div className='about'>
-        <div className='row'>
-          <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img'>
-            <img src={myphoto} alt='profile-pic' />
-          </div>
-          <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12  about-content'>
-            <h1>About me</h1>
-            <p>
-              "I am a skilled software developer with 1.4 years of hands-on
-              experience in frontend .
-              Recently upgraded my skills on backend with nodejs and its framework express, I have demonstrated proficiency in building
-              robust backend systems using Node.js, along with developing
-              dynamic and interactive user interfaces with React.js. My skill
-              set includes JavaScript ,ES6, Node-NPM, Redux-Toolkit, Bootstrap,
-              Tailwind CSS, ReactStrap, Material UI, MongoDB, and IDE tools
-              like VS Code, Dreamweaver, and Adobe Photoshop. With a proactive
-              attitude and a passion for learning, I am dedicated to delivering
-              high-quality solutions and contributing effectively to team
-              success.
-            </p>
+      <div className='about' id='about'>
+        <div
+          data-aos='flip-left'
+          data-aos-easing='ease-out-cubic'
+          data-aos-duration='2000'
+        >
+          <div className='row'>
+            <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img'>
+              <img src={myphoto} alt='profile-pic' />
+            </div>
+            <div className='col-md-6 col-xl-6 col-lg-6 col-xs-12  about-content'>
+              <h1>About me</h1>
+              <h4> Full-Stack MERN Developer | 2 Years of Experience</h4>
+              <p>
+                "Specialized in MongoDB, Express.js, React.js, and Node.js.
+                 JavaScript (ES6), Redux-Toolkit for state management,
+                and styling with Tailwind CSS, Bootstrap, and Material UI.
+                Skilled in crafting scalable RESTful APIs, dynamic and
+                responsive user interfaces, and efficient backend systems with
+                MongoDB integration. Experienced with Git, npm, VS Code, and
+                deployment workflows, delivering high-quality, user-centric web
+                applications."
+              </p>
+            </div>
           </div>
         </div>
       </div>

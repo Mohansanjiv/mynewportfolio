@@ -1,25 +1,26 @@
-.sidebar-section{
-    display: flex;
-    background-color: rgb(29, 20, 20);
+.sidebar-section {
+  display: flex;
+  background-color: rgb(29, 20, 20);
 }
 
-.sidebar{
-    height:100vh;
-    width: 90px;
-    background-color: rgb(17, 16, 16);
-    position: fixed;
+.sidebar {
+  height: 100vh;
+  width: 90px;
+  background-color: rgb(17, 16, 16);
+  position: fixed;
+  z-index: 10000;
 }
-.sidebar-toggle{
-    width: 200px;
+.sidebar-toggle {
+  width: 200px;
 }
-.sidebar-toggle-icons{
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    cursor: pointer;
+.sidebar-toggle-icons {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
 }
-.sidebar-toggle-icons p svg{
-    background-color: rgb(250, 177, 66);
-    color: white;
-    margin-top: 35px;
+.sidebar-toggle-icons p svg {
+  background-color: rgb(250, 177, 66);
+  color: white;
+  margin-top: 35px;
 }

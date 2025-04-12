@@ -1,23 +1,38 @@
-.work{
-    margin: 40px 0px;
-    padding-left:130px;
-    background-color: #09628b;  
+.work {
+  margin: 40px 0px;
+  padding-left: 130px;
+  background-color: #09628b;
 }
-.work-exp{
-    padding:60px  0;
+.work-exp {
+  padding: 60px 0;
 }
-.work-exp hr{
-    width: 360px;
-    margin: 10px auto 20px;
-    color: #0e0f0e;
+.work-exp hr {
+  width: 360px;
+  margin: 10px auto 20px;
+  color: #0e0f0e;
 }
-.work h2{
-    font-weight:bold;
-    color: #000000;
+.work h2 {
+  font-weight: bold;
+  color: #000000;
 }
-.work-exp .vertical-timeline-element-title{
-    color: #117796;
+.work-exp .vertical-timeline-element-title {
+  color: #117796;
 }
-.work-exp .vertical-timeline-element-subtitle{
-    color: #18618086;
+.work-exp .vertical-timeline-element-subtitle {
+  color: #18618086;
+}
+
+.theme-dark {
+  background-color: #121212;
+  color: white;
+}
+
+.theme-light {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+/* Specific tweaks (optional) */
+.work-exp h2 {
+  padding: 20px 0;
 }
